@@ -1,8 +1,8 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import FrontPage from './components/FrontPage.vue'
 </script>
 
 <template>
 
-  <HelloWorld msg="Vite + Vue" />
+  <FrontPage msg="Vite + Vue" />
 </template>
