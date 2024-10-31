@@ -4,5 +4,5 @@ import FrontPage from './components/FrontPage.vue'
 
 <template>
 
-  <FrontPage msg="Vite + Vue" />
+  <FrontPage/>
 </template>

@@ -59,11 +59,13 @@ onMounted(() => {
       enter-from-class="transform -translate-y-10 opacity-0"
       enter-to-class="transform translate-y-0 opacity-100"
     >
+
+   
       <nav 
         v-if="isVisible"
         class="flex flex-col sm:flex-row justify-between bg-slate-900 text-[#DAC5A7] p-3 items-center w-11/12 md:w-2/3 lg:w-1/3 mx-auto rounded-sm border-[#DAC5A7] border-solid border-2"
       >
-        <img src="./img/arik..png" alt="Logo" class="w-12 md:w-16 mb-2 sm:mb-0 ml-3">
+        <p class="w-12 md:w-24 mb-2 sm:mb-0 ml-3 italic">KEN-MARTTI.</p>
         
         <button class="sm:hidden mb-2" @click="count = !count">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -180,14 +182,61 @@ onMounted(() => {
             <img src="./img/Button Text Icon.svg" alt="" class="mr-2">SEE ALL
           </p>
         </div>
-        <div class="w-full flex flex-row gap-7 flex-col">
-          <img src="./img/Grid.png" alt="" class="w-1/2">
-          <img src="./img/Grid (1).png" alt="" class="w-1/2">
-          <img src="./img/Grid (3).png" alt="" class="w-1/2">
-          <img src="./img/Grid (2).png" alt="" class="w-1/2">
+        <div class="w-full grid grid-cols-2 gap-6">
+          <img src="./img/Grid.png" alt="" class="">
+          <img src="./img/Grid (1).png" alt="" class="">
+          <img src="./img/Grid (3).png" alt="" class="">
+          <img src="./img/Grid (2).png" alt="" class="">
         </div>
       </div>
     </Transition>
+  </section>
+
+  <section class="text-[#DAC5A7] font-satoshi bg-black pt-44">        
+      <div class="justify-center items-center grid grid-cols-1">
+        <p class="mb-5 flex flex-col text-center">THE PROCESS</p>
+        <h1 class="text-8xl flex flex-col text-center">Your Website <span class="italic">in 5 steps</span></h1>
+        <p class="text-center mt-6 opacity-35">Our process ensures that we create a Website<br> tailored to your business needs</p>
+            
+        
+          <div class="justify-center flex felx-col">
+              <img class="mt-12" src="./img/Badge.svg" alt="">
+              <img class="" src="./img/Line.svg" alt="">
+            </div>
+            <div class="justify-center flex felx-col">
+              <img class="col-start-" src="./img/Grid.svg" alt="">
+              <div class="">
+                
+              </div>
+            </div>
+            <div class="justify-center flex felx-col">
+              <img class="col-start-" src="./img/Grid (1).svg" alt="">
+              <div class="">
+                
+              </div>
+            </div>
+            <div class="justify-center flex felx-col">
+              <img class="col-start-" src="./img/Grid (2).svg" alt="">
+              <div class="">
+                
+              </div>
+            </div>
+            <div class="justify-center flex felx-col">
+              <img class="col-start-" src="./img/Grid (3).svg" alt="">
+              <div class="">
+                
+              </div>
+            </div>
+            <div class="justify-center flex felx-col">
+              <img class="col-start-" src="./img/Grid (4).svg" alt="">
+              <div class="">
+                
+              </div>
+            </div>
+        </div>
+
+    
+
   </section>
 </template>
 
