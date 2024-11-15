@@ -234,10 +234,20 @@ onMounted(() => {
               </div>
             </div>
         </div>
+  </section>
 
-    
+  <section class="text-[#DAC5A7] font-satoshi bg-black pt-44">
+    <h1 class="text-9xl italic flex-row flex justify-around">Ken-Martti <img src="" alt="">Paju</h1>
+    <p class="text-xl pt-44 flex text-center justify-center">Hi, I'm Ken-Martti Paju - a student studying web design and programming.<br> I'm passionate about creating unique and effective solutions using the computer, and I love my speciality.<br> Let's work together to bring your vision to life! </p>
+    <img class="mx-auto mt-6 pb-20 " src="./img/instagram.svg" alt="">
 
   </section>
+
+  <div class="pt-12 bg-neutral-800"></div>
+
+  <footer class="text-[#DAC5A7] font-satoshi bg-neutral-900 pt-44">
+    <h2></h2>
+  </footer>
 </template>
 
 <style>
