@@ -20,7 +20,7 @@ import Navigation from '../components/navigation.vue';
   
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="group cursor-pointer relative overflow-hidden bg-slate-900 rounded-lg shadow-xl hover:scale-105 transform transition duration-300">
-          <a href="https://github.com/robinmihkelson/Ametikooli-projekt-grupp-2-2023"><img src="./img/image45.png" alt="Space" class="w-full h-full object-cover group-hover:brightness-75 transition duration-300"></a>
+        <img src="./img/image45.png" alt="Space" class="w-full h-full object-cover group-hover:brightness-75 transition duration-300">
           <div class="fixed inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
             <div class="text-center">
                 <a href="https://github.com/robinmihkelson/Ametikooli-projekt-grupp-2-2023"><h2 class="text-2xl text-emerald-500">Saw X</h2>

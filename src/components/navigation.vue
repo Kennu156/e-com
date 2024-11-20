@@ -27,7 +27,7 @@ const goToWork = () => navigateTo('/work')
 
     
 </section>
-<nav class="flex justify-evenly flex-col sm:flex-row bg-slate-800 text-emerald-400 p-3 items-center w-1/4 mx-auto rounded-sm border-emerald-400 border-solid border-2">
+<nav class="flex justify-evenly flex-col sm:flex-row bg-slate-800 text-emerald-400 p-3 items-center w-1/3 mx-auto rounded-sm border-emerald-400 border-solid border-2 shadow-2xl">
   <button @click="goToHome" class="w-12 md:w-24 mb-2 sm:mb-0 italic"><strong>KEN.</strong></button>
   
   <button class="sm:hidden mb-2" @click="toggleMenu">

@@ -39,7 +39,7 @@
       Have a project or collaboration in mind? Fill out the form below, and I'll get back to you as soon as possible.
     </p>
     
-    <form @submit.prevent="submitForm">
+    <form action="https://formspree.io/f/xwpkqqnk" method="post" @submit.prevent="submitForm">
       <div class="mb-6">
         <label for="name" class="block text-sm font-medium mb-2">Name</label>
         <input
