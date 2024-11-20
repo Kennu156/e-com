@@ -14,7 +14,7 @@ const navigateTo = (route) => {
 };
 
 const goToContact = () => navigateTo('/contact');
-const goToHome = () => navigateTo('/home');
+const goToHome = () => navigateTo('/');
 const goToAbout = () => navigateTo('/about');
 const goToService = () => navigateTo('/service');
 const goToWork = () => navigateTo('/work')

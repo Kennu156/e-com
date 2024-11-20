@@ -6,7 +6,7 @@ import Service from './views/Service.vue';
 import Work from './views/Work.vue';
 
 const routes = [
-  { path: '/home', component: FrontPage, name: 'Front' },
+  { path: '/',name: 'Front', component: FrontPage  },
   { path: '/contact', name: 'Contact', component: Contact },
   { path: '/about', name: 'About', component: About },
   { path: '/service', name: 'Service', component: Service },
