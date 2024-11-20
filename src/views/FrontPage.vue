@@ -121,7 +121,7 @@ onMounted(() => {
       
       <div v-if="workVisible">
         <div class="flex flex-col md:flex-row justify-between items-center mb-8">
-          <h1 class="text-4xl md:text-7xl mb-4 md:mb-0">Selected <span class="italic">Work</span></h1>
+          <h1 class="text-4xl md:text-7xl mb-4 md:mb-0"><span class="italic">Work</span></h1>
           <a href="/work" class="flex flex-row items-center cursor-pointer hover:text-emerald-300 transition-colors duration-300">
             <img src="./img/Button Text Icon.svg" alt="" class="mr-2">SEE ALL
           </a>

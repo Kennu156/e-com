@@ -29,7 +29,7 @@ const goToWork = () => navigateTo('/work')
     <div class="flex flex-col items-center">
       <h3 class="text-xl">Ken.</h3>
       <a class="flex items-center gap-2 mt-5 hover:scale-95 transition-transform duration-300" href="https://github.com/Kennu156">
-        <img class="h-8 w-9 flex items-center" src="../views/img/github-mark-white.svg" alt="">Github
+        <img class="h-8 w-9 ml-2 flex items-center" src="../views/img/github-mark-white.svg" alt="">Github
       </a>
     </div>
     <div class="flex flex-col text-center mb-14">

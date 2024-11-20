@@ -9,19 +9,7 @@
     message: '',
   });
   
-
-  const submitForm = () => {
-    console.log('Form submitted:', form.value);
-  
-    form.value = {
-      name: '',
-      email: '',
-      message: '',
-    };
-
-
     alert('Thank you! Your message has been sent.');
-  };
   </script>
   
 
@@ -39,7 +27,7 @@
       Have a project or collaboration in mind? Fill out the form below, and I'll get back to you as soon as possible.
     </p>
     
-    <form action="https://formspree.io/f/xwpkqqnk" method="post" @submit.prevent="submitForm">
+    <form action="https://formspree.io/f/xwpkqqnk" method="POST">
       <div class="mb-6">
         <label for="name" class="block text-sm font-medium mb-2">Name</label>
         <input
@@ -67,6 +55,7 @@
       <div class="mb-6">
         <label for="message" class="block text-sm font-medium mb-2">Message</label>
         <textarea
+          name="message"
           id="message"
           v-model="form.message"
           rows="5"
