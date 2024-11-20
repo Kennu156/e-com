@@ -1,8 +1,7 @@
 <script setup>
-import FrontPage from './components/FrontPage.vue'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
-
-  <FrontPage/>
+    <router-view></router-view>
 </template>
