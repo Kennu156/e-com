@@ -6,7 +6,7 @@ import Navigation from '../components/navigation.vue';
 
 
 <template>
-    <div class="bg-black pt-7">
+    <div class="bg-slate-900 pt-7">
         <Navigation/>
     </div>
     <section class="min-h-screen bg-slate-900 text-emerald-400 font-satoshi px-6 py-12 flex items-center">

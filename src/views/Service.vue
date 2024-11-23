@@ -1,7 +1,6 @@
   <script setup>
   import Footer from '../components/Footer.vue';
 import Navigation from '../components/navigation.vue';
-import ServiceCard from '../components/ServiceCard.vue'
   </script>
 
 <template>

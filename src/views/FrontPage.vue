@@ -66,8 +66,8 @@ onMounted(() => {
 <template>
   <section 
     class="relative min-h-screen bg-cover bg-center bg-no-repeat pt-4 md:pt-9 bg-slate-900" 
-    style="background-image: url('src/views/img/');"
-  >
+    style="background-image: url('src/views/img/');">
+
     <Transition enter-active-class="transition duration-1000 ease-out" enter-from-class="transform -translate-y-10 opacity-0" enter-to-class="transform translate-y-0 opacity-100">
       <navigation />
     </Transition>
@@ -78,21 +78,21 @@ onMounted(() => {
       enter-to-class="transform translate-y-0 opacity-100">
 
       <div v-if="isVisible" class="flex justify-center items-center h-full mt-20 md:mt-44 flex-col px-4">
-        <h1 class="text-emerald-400 text-4xl md:text-7xl lg:text-9xl font-satoshi text-center whitespace-pre-line shadow-xl">
+        <h1 class="text-emerald-400 text-4xl md:text-7xl lg:text-9xl font-satoshi text-center whitespace-pre-line">
           {{ animatedText }}
         </h1>
       </div>
     </Transition>
   </section>
 
-  <section id="logos-section" class="bg-slate-900 text-emerald-400 overflow-hidden pt-44">
+  <section id="logos-section" class="bg-slate-900 text-emerald-400 overflow-hidden pt-28">
     <div id="services-cards" class="px-4 pb-12">
       <Transition
         enter-active-class="transition duration-1000 ease-out"
         enter-from-class="transform translate-y-10 opacity-0"
         enter-to-class="transform translate-y-0 opacity-100">
 
-        <div v-if="cardsVisible" class="flex flex-col md:flex-row justify-center gap-5 justify-around md:gap-10">
+        <div v-if="cardsVisible" class="flex flex-col md:flex-row justify-center gap-5 md:gap-10">
           <div class="bg-slate-800 p-8 md:p-14 border-solid border-2 border-emerald-400 hover:transform hover:scale-105 transition-transform duration-300">
             <p>01</p>
             <h1 class="text-emerald-400 text-xl md:text-2xl font-satoshi">WEB DESIGN</h1>
@@ -127,6 +127,7 @@ onMounted(() => {
           </a>
         </div>
         <div class="w-full grid grid-cols-2 gap-6 pt-14">
+          
           <img class="h-96 rounded-xl w-4/5" src="./img/image45.png" alt="">
           <img class="h-96 rounded-xl w-4/5" src="./img/image34.png" alt="">
         </div>
@@ -227,7 +228,7 @@ onMounted(() => {
 
 
   <section class="text-emerald-400 font-satoshi bg-slate-900 pt-44">
-    <h1 class="text-9xl italic flex-row flex justify-around shadow-xl">Ken-Martti Paju</h1>
+    <h1 class="text-9xl italic flex-row flex justify-around">Ken-Martti Paju</h1>
     <p class="text-xl pt-44 flex text-center justify-center text-emerald-200">Hi, I'm Ken-Martti Paju - a student studying web design and programming.<br> I'm passionate about creating unique and effective web sites , and I love my speciality.<br> Let's work together to bring your vision to life! </p>
     <a href="https://github.com/Kennu156"><img class="mx-auto mt-10 pb-20" src="./img/github-mark-white.svg" alt=""></a>
   </section>
