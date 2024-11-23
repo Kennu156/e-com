@@ -64,9 +64,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section 
-    class="relative min-h-screen bg-cover bg-center bg-no-repeat pt-4 md:pt-9 bg-slate-900" 
-    style="background-image: url('src/views/img/');">
+  <section class="relative min-h-screen bg-cover bg-center bg-no-repeat pt-4 md:pt-9 bg-slate-900" style="background-image: url('src/views/img/');">
 
     <Transition enter-active-class="transition duration-1000 ease-out" enter-from-class="transform -translate-y-10 opacity-0" enter-to-class="transform translate-y-0 opacity-100">
       <navigation />
@@ -85,7 +83,7 @@ onMounted(() => {
     </Transition>
   </section>
 
-  <section id="logos-section" class="bg-slate-900 text-emerald-400 overflow-hidden pt-28">
+  <section id="logos-section" class=" bg-gradient-to-b from-slate-900 to-slate-800 text-emerald-400 overflow-hidden pt-28 pb-36">
     <div id="services-cards" class="px-4 pb-12">
       <Transition
         enter-active-class="transition duration-1000 ease-out"
@@ -113,7 +111,7 @@ onMounted(() => {
     </div>
   </section>
 
-  <section id="work-section" class="bg-slate-900 text-emerald-400 pt-24 md:pt-48 font-satoshi px-4 md:px-20">
+  <section id="work-section" class="bg-gradient-to-b from-slate-800 to-slate-900 text-emerald-400 pt-24 md:pt-48 font-satoshi px-4 md:px-20">
     <Transition
       enter-active-class="transition duration-1000 ease-out"
       enter-from-class="transform translate-y-10 opacity-0"
@@ -126,10 +124,9 @@ onMounted(() => {
             <img src="./img/Button Text Icon.svg" alt="" class="mr-2">SEE ALL
           </a>
         </div>
-        <div class="w-full grid grid-cols-2 gap-6 pt-14">
-          
-          <img class="h-96 rounded-xl w-4/5" src="./img/image45.png" alt="">
-          <img class="h-96 rounded-xl w-4/5" src="./img/image34.png" alt="">
+        <div class="w-full flex flex-row justify-evenly gap-6 pt-14">
+          <a href="https://github.com/robinmihkelson/Ametikooli-projekt-grupp-2-2023" target="_blank"><img class="h-96 rounded-xl w-4/5" src="./img/image45.png" alt=""></a>
+          <a href="https://github.com/mariliis01/disainimajaka-laenutus-rakendus" target="_blank"><img class="h-96 rounded-xl w-4/6" src="./img/image34.png" alt=""></a>
         </div>
       </div>
     </Transition>
@@ -234,6 +231,7 @@ onMounted(() => {
   </section>
 
   <div class="pt-1 bg-slate-950"></div>
+  
   <Footer/>
 </template>
 
