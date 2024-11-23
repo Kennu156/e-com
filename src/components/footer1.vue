@@ -10,8 +10,8 @@ const goToWork = () => navigateTo('/work')
 </script>
 
 <template>
-    <footer class="text-emerald-400 font-satoshi bg-slate-600">
-      <section class="flex justify-evenly pt-32 bg-slate-600">
+    <footer class="text-emerald-400 font-satoshi bg-gradient-to-b from-slate-800 to-slate-700">
+  <section class="flex justify-evenly pt-32">
     <div class="flex flex-col items-center">
       <h3 class="text-2xl">Ken.</h3>
       <a class="flex text-xl items-center gap-2 mt-5 hover:scale-95 transition-transform duration-300" href="https://github.com/Kennu156">

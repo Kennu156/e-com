@@ -233,7 +233,7 @@ onMounted(() => {
     <a href="https://github.com/Kennu156"><img class="mx-auto mt-10 pb-20" src="./img/github-mark-white.svg" alt=""></a>
   </section>
 
-  <div class="pt-12 bg-slate-800"></div>
+  <div class="pt-1 bg-slate-950"></div>
   <Footer/>
 </template>
 

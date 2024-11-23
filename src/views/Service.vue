@@ -43,6 +43,7 @@ import Navigation from '../components/navigation.vue';
     </div>
   </div>
 </section>
+<div class="bg-slate-950 pt-1"></div>
     <Footer/>
   </template>
   

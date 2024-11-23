@@ -74,7 +74,7 @@
     </form>
   </div>
 </section>
-
+    <div class="pt-1 bg-slate-950"></div>
     <Footer1/>
 
   </template>
