@@ -18,7 +18,7 @@ import Navigation from '../components/navigation.vue';
     </p>
     
     <div class="flex justify-center mb-12">
-      <img src="./img/" alt="" class="rounded-lg shadow-lg w-full max-w-md md:max-w-lg hover:shadow-emerald-400/20 transition-shadow duration-300"/>
+      <img src="./img/anne2.jpg" alt="" class="rounded-lg shadow-lg w-full max-w-md md:max-w-lg hover:shadow-emerald-400/20 transition-shadow duration-300"/>
     </div>
     
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10">

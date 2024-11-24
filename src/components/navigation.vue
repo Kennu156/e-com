@@ -11,7 +11,7 @@ const router = useRouter();
 const handleScroll = () => {
   const currentScrollY = window.scrollY;
   
-  if (currentScrollY > lastScrollY.value) {
+  if (currentScrollY > lastScrollY.value && currentScrollY > 0) {
     isVisible.value = false;
   } else {
     isVisible.value = true;
