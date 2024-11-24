@@ -9,7 +9,7 @@ import Navigation from '../components/navigation.vue';
     <div class="bg-slate-900 pt-7">
         <Navigation/>
     </div>
-    <section class="min-h-screen bg-slate-900 text-emerald-400 font-satoshi px-6 py-12 flex items-center">
+    <section class="min-h-screen bg-slate-900 text-emerald-400 font-satoshi px-6 py-12 flex items-center pt-24">
   <div class="w-full max-w-4xl mx-auto">
     <h1 class="text-4xl md:text-6xl font-bold text-center mb-8">About Me</h1>
     <p class="text-lg md:text-xl text-center text-emerald-200 mb-8">
