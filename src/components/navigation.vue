@@ -71,8 +71,7 @@ const goToWork = () => navigateTo('/work');
       </div>
       <div
         v-if="menuVisible"
-        class="fixed top-full left-0 w-full bg-slate-800 border-t-2 border-emerald-400 sm:hidden"
-      >
+        class="fixed top-full left-0 w-full bg-slate-800 border-t-2 border-emerald-400 sm:hidden">
         <div class="flex flex-col p-4 gap-4">
           <button @click="goToHome" class="text-left cursor-pointer hover:text-emerald-300 transition-colors duration-300">
             HOME
