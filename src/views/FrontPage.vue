@@ -76,7 +76,7 @@ onMounted(() => {
       enter-to-class="transform translate-y-0 opacity-100">
 
       <div v-if="isVisible" class="flex justify-center items-center h-full mt-20 md:mt-44 flex-col px-4">
-        <h1 class="text-emerald-400 text-4xl md:text-7xl lg:text-9xl font-satoshi text-center whitespace-pre-line">
+        <h1 class="text-emerald-400 mt-28 text-6xl md:text-7xl lg:text-9xl font-satoshi text-center whitespace-pre-line">
           {{ animatedText }}
         </h1>
       </div>
@@ -124,10 +124,15 @@ onMounted(() => {
             <img src="./img/Button Text Icon.svg" alt="" class="mr-2">SEE ALL
           </a>
         </div>
-        <div class="w-full flex flex-row justify-evenly gap-6 pt-14">
-          <a href="https://github.com/robinmihkelson/Ametikooli-projekt-grupp-2-2023" target="_blank"><img class="h-96 rounded-xl w-4/5" src="./img/image45.png" alt=""></a>
-          <a href="https://github.com/mariliis01/disainimajaka-laenutus-rakendus" target="_blank"><img class="h-96 rounded-xl w-4/6" src="./img/image34.png" alt=""></a>
+        <div class="w-full flex flex-col sm:flex-row justify-evenly gap-6 pt-14">
+          <a href="https://github.com/robinmihkelson/Ametikooli-projekt-grupp-2-2023" target="_blank">
+            <img class="h-96 rounded-xl w-full sm:w-4/5" src="./img/image45.png" alt="">
+          </a>
+          <a href="https://github.com/mariliis01/disainimajaka-laenutus-rakendus" target="_blank">
+            <img class="h-96 rounded-xl w-full sm:w-4/6" src="./img/image34.png" alt="">
+          </a>
         </div>
+
       </div>
     </Transition>
   </section>
@@ -225,8 +230,8 @@ onMounted(() => {
 
 
   <section class="text-emerald-400 font-satoshi bg-slate-900 pt-44">
-    <h1 class="text-9xl italic flex-row flex justify-around">Ken-Martti Paju</h1>
-    <p class="text-xl pt-44 flex text-center justify-center text-emerald-200">Hi, I'm Ken-Martti Paju - a student studying web design and programming.<br> I'm passionate about creating unique and effective web sites , and I love my speciality.<br> Let's work together to bring your vision to life! </p>
+    <h1 class="text-9xl italic flex-row flex text-center justify-around">Ken-Martti Paju</h1>
+    <p class="text-xl text-wrap pt-44 flex text-center justify-center text-emerald-200">Hi, I'm Ken-Martti Paju - a student studying web design and programming.<br> I'm passionate about creating unique and effective web sites , and I love my speciality.<br> Let's work together to bring your vision to life! </p>
     <a href="https://github.com/Kennu156"><img class="mx-auto mt-10 pb-20" src="./img/github-mark-white.svg" alt=""></a>
   </section>
 
