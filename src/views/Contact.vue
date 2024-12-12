@@ -19,7 +19,7 @@
 </div>
 
 
-<section class="min-h-screen bg-slate-900 text-emerald-400 font-satoshi flex items-center justify-center px-6 py-12">
+<section class="min-h-screen bg-slate-900 text-emerald-400 font-satoshi flex items-center justify-center px-6 py-12 pt-20">
   <div class="w-full max-w-xl bg-slate-800 p-8 rounded-lg shadow-lg border border-emerald-400">
     <h1 class="text-4xl font-bold text-center mb-6">Get in Touch</h1>
     <p class="text-center text-emerald-200 mb-8">

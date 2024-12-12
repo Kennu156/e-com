@@ -17,7 +17,7 @@ import Navigation from '../components/navigation.vue';
       Premium web design and development services to make your business stand out.
     </p>
     
-    <div class="mt-32 grid grid-cols-2 md:grid-cols-2 gap-6 text-center">
+    <div class="mt-32 grid grid-cols-2 md:grid-cols-2 gap-10 px-6 text-center">
       <div class="p-8 bg-slate-800 rounded-lg border border-emerald-400/20 hover:border-emerald-400/40 transition-all duration-300">
         <h3 class="text-4xl font-bold">4</h3>
         <p class="text-xl text-emerald-200">Projects</p>
